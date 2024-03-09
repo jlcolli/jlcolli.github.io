@@ -1,0 +1,38 @@
+html {
+    font-size: 22px
+        }
+ 
+
+        
+body {
+    font-size: 22px;
+    background-color:goldenrod;
+    color: rgb(139, 0, 100);
+    line-height: 1.5;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+head { 
+    border: 10px double rgb(98, 13, 13);
+    width: 400px;
+    padding: 1.5rem;
+    padding-right: 50px;
+
+}  
+
+
+table,tr,th,td,caption {
+    border: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+padding: 0.5rem;
+
+}
+
+.table
+
+
+p {
+    color: antiquewhite;
+
+}
