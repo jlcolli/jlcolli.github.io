@@ -1,0 +1,16 @@
+
+html, body {
+    min-height: 100%;
+
+}
+
+
+.main  {
+    background-image: url(pexels-daniel-putzer-633409.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+   
+    
+}
+
