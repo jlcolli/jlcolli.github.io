@@ -1,17 +1,61 @@
 html {
     font-size: 22px
+   
         }
- 
+
+a {
+    color: mediumblue;
+}
+.container-main {
+    background-image: url(pexels-daniel-putzer-633409.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.main  {
+    background-image: url(pexels-mudassir-ali-3812773.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+   
+}
+
 .family {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        filter: blur(1.5px);
+      }
+
+.me { 
+    font-size: 40px;
+    color: whitesmoke;
+    line-height: 1.5;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+
 
 .computer {
     display: flex;
     justify-content: center;
+
 
 }
 .vacation {
@@ -22,17 +66,28 @@ html {
 
         
 body {
-    font-size: 22px;
-    background-color:goldenrod;
-    color: rgb(139, 0, 100);
+    font-size: 30px;
+    background-color: black;
+    color: whitesmoke;
     line-height: 1.5;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+h3 {
+    font-size: 20x;
+    color: yellow;
+
+}
+    
 
 
 head { 
-    border: 10px double rgb(98, 13, 13);
+    border: 10px double antiquewhite;
     width: 400px;
     padding: 1.5rem;
     padding-right: 50px;
@@ -40,19 +95,28 @@ head {
 }  
 
 
-table,tr,th,td,caption {
+table,tr,th,td {
     align-items: center;
-    border: 1px solid #eee;
+    border: 10px solid whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    padding: .5rem;
+    color: black;
+}
+
+.jobs{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+}
+caption {
+    align-items: center;
+    border: 10px solid whitesmoke;
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
-    padding: 0.5rem;
-
+    padding: .5;
+    color: yellow;
 }
 
-.table
 
 
-p {
-    color: antiquewhite;
-
-}
